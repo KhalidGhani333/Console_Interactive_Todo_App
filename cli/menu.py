@@ -23,7 +23,6 @@ class Menu:
         self.formatter = CliOutputFormattingSkill()
         self.running = True
         self.categories = ["Work", "Personal", "Shopping", "Health", "General", "Other"]
-        self._add_sample_data()
 
     def run(self):
         """Run the main application loop"""
